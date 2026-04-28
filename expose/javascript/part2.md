@@ -10,5 +10,19 @@
 8.  The function would return **[50,100, 150]**. 
 9.  There will be an error at line 11 because `i` was decalred with `let` inside the loop. 
 10. Line 12 will pritn **3** because `length` was decalred outisde teh loop. 
-11. The function will return **[50, 100, 150]** <br>
-12a. 
+11. The function will return **[50, 100, 150]** 
+12. A: student.name <br>
+    B:student[ "Grad Year"] <br>
+    C: student.greeting() <br>
+    D: student["Favorite Teacher"].name <br>
+    E: student.courseLoad[0] <br>
+13. A: '32'<br>
+    B: 1<br>
+    C: 3<br>
+    D: 3null<br>
+    E: 4<br>
+    F: 0<br>
+    G: 3undefined<br>
+    G: Nan<br>
+
+14. 
