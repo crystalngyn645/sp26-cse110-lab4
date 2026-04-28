@@ -12,10 +12,11 @@
 10. Line 12 will pritn **3** because `length` was decalred outisde teh loop. 
 11. The function will return **[50, 100, 150]** 
 12. A: student.name <br>
-    B:student[ "Grad Year"] <br>
+    B: student[ "Grad Year"] <br>
     C: student.greeting() <br>
     D: student["Favorite Teacher"].name <br>
     E: student.courseLoad[0] <br>
+
 13. A: '32'<br>
     B: 1<br>
     C: 3<br>
@@ -25,4 +26,13 @@
     G: 3undefined<br>
     G: Nan<br>
 
-14. 
+14. A: true<br>
+    B: false<br>
+    C: true<br>
+    D: false<br>
+    E: false<br>
+    F: true<br>
+
+15. The difference between **==** and **===** is that **==** compares values after conversion. In contrast, **===** comapres value and type without conversion. 
+    
+16. 
