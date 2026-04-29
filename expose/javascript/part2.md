@@ -49,26 +49,8 @@
 
 15. The difference between **==** and **===** is that **==** compares values after conversion. In contrast, **===** comapres value and type without conversion. 
     
-16. ``` js
-    for (let property in statistics) 
-    {
-        if ( property.startsWith("r") || statistics[ property ] % 2 === 1) 
-        {
-            console.log(statistics[property]);
-        }
-    }
-
 
 17. The result would be **[2, 4, 6]**. This function would call `doSomething` as it loops thorugh **[1,2,3]**. And for each value, it would be multiplied by 2. 
     
-18. ```js 
-    setInterval(() => 
-    {
-        let temp = new Date();
-
-        let time = temp.toLocaleTimeString();
-
-        console.log(time);
-    }, 1000);
 
 19. The output is: 1, 4, 3, 2
