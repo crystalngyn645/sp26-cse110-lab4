@@ -18,31 +18,45 @@
     E: student.courseLoad[0] <br>
 
 13. A: '32'<br>
+    '+' with a string results in a strign concatenation <br>
     B: 1<br>
+    '-' converts 3 toan int <br>
     C: 3<br>
+    null is equivalent to '0' <br>
     D: 3null<br>
+    '+' is used for a string concatenation<br>
     E: 4<br>
+    true is eqiovalent to 1 <br>
     F: 0<br>
+    both false and null converts to 0<br>
     G: 3undefined<br>
+    '+' was used for string concatenation<br>
     G: Nan<br>
+    undefined converts to NaN<br>
 
 14. A: true<br>
+    2 converts to an int <br>
     B: false<br>
+    since both are strings, they are compared alphabetically<br>
     C: true<br>
+    '==' allows type conversions<br>
     D: false<br>
+    '===' compares both value and type <br>
     E: false<br>
+    true converts to 1. and 1 is not equivalent to 2
     F: true<br>
+    Boolean(2) is true and both sides are booleans <br>
 
 15. The difference between **==** and **===** is that **==** compares values after conversion. In contrast, **===** comapres value and type without conversion. 
     
 16. ``` js
     for (let property in statistics) 
     {
-        if (property.startsWith("r") || statistics[property] % 2 === 1) 
+        if ( property.startsWith("r") || statistics[ property ] % 2 === 1) 
         {
             console.log(statistics[property]);
         }
-}
+    }
 
 
 17. The result would be **[2, 4, 6]**. This function would call `doSomething` as it loops thorugh **[1,2,3]**. And for each value, it would be multiplied by 2. 
@@ -50,8 +64,10 @@
 18. ```js 
     setInterval(() => 
     {
-        let d = new Date();
-        let time = d.toLocaleTimeString();
+        let temp = new Date();
+
+        let time = temp.toLocaleTimeString();
+
         console.log(time);
     }, 1000);
 
